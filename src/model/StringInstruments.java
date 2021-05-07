@@ -1,6 +1,6 @@
 package model;
 
-public class StringInstruments extends Instrument{
+public abstract class StringInstruments extends Instrument{
 
 	public StringInstruments( String reference, DistributorCompany distributor, Dimensions instrumentDimensions, Ubication ubication )
 	{
